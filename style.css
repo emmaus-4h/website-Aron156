@@ -1,11 +1,16 @@
 /* Basislayout */
 
 html, body {
-    height: 100%;
+    height: 100% ;
     padding: 0;
-    background-color: #EEEEEE;  
+    background-image: url(afbeeldingen/Jeffrey_Herlings.jpg) ;
+    background-size: 1200px ;
     
-    color: #303030;
+  
+    
+  
+    
+    color: lime;
     font: Verdana, Arial, Sans-Serif;
 }
 
@@ -23,7 +28,7 @@ article {
 
 
 header {
-    color: skyblue;
+    color: burlywood;
     text-align: center;
 }
 
@@ -37,8 +42,25 @@ footer {
 /* specifieke stijlen */
 
 img.zweefLinks {
-    float: left;
-    margin-right: 15px;
+    width: 300px;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+
+img.zweefRechts {
+    float: Right;
+    margin-left: 15px;
+    width: 150px;
+    height: 100px;
+
+}
+
+img.zweef {
+  margin-right: 275px;
+  margin-left:  275px;
+  height: 150px ;
+  width: 150px ;
+   
 }
 
 .smalltext {
@@ -46,7 +68,7 @@ img.zweefLinks {
 }
 
 a {
-    color: skyblue;
+    color: Orange;
     text-decoration: none;
 }
 
@@ -60,7 +82,7 @@ nav ul {
     list-style-type: none;
     margin: auto;
     padding: 0;
-    background-color: #dddddd;
+    background-color: black;
     overflow: hidden;
 }
 
@@ -77,11 +99,11 @@ nav li a {
 }
 
 nav li a:hover {
-    background-color: #aaaaaa;
+    background-color: burlywood;
 }
 
 nav li a.active {
-    background-color: skyblue;
+    background-color: burlywood;
 }
 
 
